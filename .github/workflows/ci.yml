@@ -7,5 +7,6 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v4
+    - run: ls -larth
     - name: step1
       uses: ./.github/actions/action.yml
