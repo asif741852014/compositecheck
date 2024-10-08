@@ -9,4 +9,4 @@ jobs:
       uses: actions/checkout@v4
     - run: cd .github/actions/ && ls -larth
     - name: step1
-      uses: ./.github/actions/action.yml
+      uses: ./.github/actions/
