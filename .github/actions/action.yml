@@ -1,0 +1,9 @@
+name: compositecationcheck
+description: justdemo composite
+runs:
+  using: "composite"
+  steps:
+  - name: step1
+    run: echo composte1
+  - name: step2
+    run: echo composite2
