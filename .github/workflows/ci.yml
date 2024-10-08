@@ -8,4 +8,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: step1
-      uses: ./github/actions/action.yml
+      uses: ./.github/actions/action.yml
