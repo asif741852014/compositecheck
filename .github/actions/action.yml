@@ -5,6 +5,7 @@ runs:
   steps:
   - name: step1
     run: echo composte1
+    shell: bash
   - name: step2
     run: echo composite2
-    
+    shell: bash
